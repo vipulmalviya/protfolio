@@ -1,0 +1,52 @@
+footer {
+    min-height: 10vh;
+    width: 100vw;
+    background-color: var(--text);
+    color: var(--caption);
+}
+
+.footerdiv>h2 {
+    font-family: "sfprodesplay-light";
+}
+
+.footerdiv {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between !important;
+    padding: 2rem 5rem;
+}
+
+.footerul {
+    text-decoration: none;
+    gap: 2rem;
+}
+
+.footerul>li {
+    font-family: "sfprodesplay-light";
+    font-size: var(--paragraph-font);
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 428px) {
+    footer {
+        min-height: 3vh;
+    }
+
+    .footerdiv {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .footerdiv>h2 {
+        font-size: var(--small-font);
+    }
+
+
+}
