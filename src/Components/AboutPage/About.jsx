@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './About.css'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -11,26 +11,26 @@ import { ScrollTrigger } from 'gsap/all';
 import Button from '../Button/Button';
 import HomeAnim from '../Animation/HomeAnim';
 import OutherAnim from '../Animation/OutherAnim';
-
+import { motion } from 'framer-motion';
 
 const elem = [
   {
     imageUrl: "public/images/1.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
-
+    
   },
   {
     imageUrl: "public/images/2.jpg",
     cardTitle: "",
     cardDescription: ""
-
+    
   },
   {
     imageUrl: "public/images/3.jpg",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
-
+    
   },
   {
     imageUrl: "public/images/4.webp",
@@ -48,7 +48,7 @@ const elem = [
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
   },
-
+  
 ]
 
 const testimonial = [
@@ -98,7 +98,8 @@ const data = [
 
 
 const About = () => {
-
+  
+  const section6 = useRef(null)
   const [property, setProperty] = useState(0)
   const handlproperty = (name) => {
     setProperty(name)
@@ -308,7 +309,7 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section className="section6 flex">
+        <section className="section6 flex" ref={section6}>
           <div className="container full flex">
             <div className="left6 flex">
               <h3 className='work'>BRANDING</h3>
@@ -317,11 +318,11 @@ const About = () => {
                 I can craft your graphic identiy, edit a corporate brand book, <br /> create your entire webdesign and develop your website <strong> : I <br /> ensure the continuity of your brand identity and support <br /> you during each key step of your project.</strong></p>
             </div>
             <div className="right6 flex">
-              <div className='firest'></div>
-              <div className='second'></div>
-              <div className='third'></div>
-              <div className='fourth'></div>
-              <div className='five'></div>
+              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='firest'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='second'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='third'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='fourth'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='five'></motion.div>
             </div>
           </div>
         </section>

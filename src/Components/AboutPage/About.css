@@ -316,6 +316,7 @@
 
 .firest,
 .fourth {
+    cursor: pointer;
     position: absolute;
     height: 180px;
     width: 180px;
@@ -326,6 +327,7 @@
 
 .second,
 .third {
+    cursor: pointer;
     position: absolute;
     height: 250px;
     width: 250px;
@@ -335,6 +337,7 @@
 }
 
 .five {
+    cursor: pointer;
     position: absolute;
     height: 500px;
     width: 500px;
