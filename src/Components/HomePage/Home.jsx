@@ -67,7 +67,7 @@ const Home = () => {
   const parallaxAmounty = 50;
 
   const imageStyle = {
-    transform: `translate(${position.x / parallaxAmountx}px, ${position.y / parallaxAmounty}px)`,
+    transform: `translate(${position.x/ parallaxAmountx}px, ${position.y / parallaxAmounty}px)`,
   };
 
   return (

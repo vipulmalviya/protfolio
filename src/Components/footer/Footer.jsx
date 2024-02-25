@@ -7,10 +7,8 @@ const Footer = () => {
             <div className='footerdiv flex'>
                 <h2>made by me</h2>
                 <ul className='footerul flex'>
-                    <li><Link rel="stylesheet" href="" />Home</li>
-                    <li><Link rel="stylesheet" href="" />About</li>
-                    <li><Link rel="stylesheet" href="" />Project</li>
-                    <li><Link rel="stylesheet" href="" />contacts</li>
+                    <li><Link rel="stylesheet" to="/About" />About</li>
+                    <li><Link rel="stylesheet" to="/Project" />Project</li>
                 </ul>
             </div>
         </footer>

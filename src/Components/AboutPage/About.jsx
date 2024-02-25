@@ -18,19 +18,19 @@ const elem = [
     imageUrl: "public/images/1.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
-    
+
   },
   {
     imageUrl: "public/images/2.jpg",
     cardTitle: "",
     cardDescription: ""
-    
+
   },
   {
     imageUrl: "public/images/3.jpg",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
-    
+
   },
   {
     imageUrl: "public/images/4.webp",
@@ -48,7 +48,7 @@ const elem = [
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
   },
-  
+
 ]
 
 const testimonial = [
@@ -74,17 +74,17 @@ const data = [
   {
     "menuItem": "Design",
     "projectDetail": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Soluta At Animi Aut Perspiciatis, Quam Nam Ad Sunt Illum Numquam Dolores Adipisci, Odit, Quos Inventore Minima Accusamus Voluptatem! Delectus, Dolorem Iusto!",
-    "projectImg": "public/images/firest.webp"
+    "projectImg": "https://images.unsplash.com/photo-1685478237503-60bdeae140c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
   },
   {
     "menuItem": "Project",
     "projectDetail": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit",
-    "projectImg": "public/images/second.webp"
+    "projectImg": "https://images.unsplash.com/photo-1685478237284-1a791984c17a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
   },
   {
     "menuItem": "Execution",
     "projectDetail": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Soluta At Animi Aut Perspiciatis, Quam Nam Ad Sunt Illum Numquam Dolores Adipisci, Odit, Quos Inventore",
-    "projectImg": "public/images/third.webp"
+    "projectImg": "https://images.unsplash.com/photo-1685478237352-5d605e9ed29e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
   }
 ]
 
@@ -98,7 +98,7 @@ const data = [
 
 
 const About = () => {
-  
+
   const section6 = useRef(null)
   const [property, setProperty] = useState(0)
   const handlproperty = (name) => {
@@ -187,14 +187,14 @@ const About = () => {
       opacity: "1",
     });
 
-      const tl5 = gsap.timeline();
-      tl5.to('.section1 ', {
-        top: 0, 
-        opacity: 1, 
-        duration: 3, 
-        ease: 'power3.inOut', 
-      },"a")
-  
+    const tl5 = gsap.timeline();
+    tl5.to('.section1 ', {
+      top: 0,
+      opacity: 1,
+      duration: 3,
+      ease: 'power3.inOut',
+    }, "a")
+
 
   }, []);
 
@@ -318,11 +318,11 @@ const About = () => {
                 I can craft your graphic identiy, edit a corporate brand book, <br /> create your entire webdesign and develop your website <strong> : I <br /> ensure the continuity of your brand identity and support <br /> you during each key step of your project.</strong></p>
             </div>
             <div className="right6 flex">
-              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='firest'></motion.div>
-              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='second'></motion.div>
-              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='third'></motion.div>
-              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='fourth'></motion.div>
-              <motion.div drag dragConstraints={section6} whileDrag={{scale:1.1}} dragElastic={{bounceSiffness:100,bounceDamping: 30}} className='five'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{ scale: 1.1 }} dragElastic={{ bounceSiffness: 100, bounceDamping: 30 }} className='firest'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{ scale: 1.1 }} dragElastic={{ bounceSiffness: 100, bounceDamping: 30 }} className='second'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{ scale: 1.1 }} dragElastic={{ bounceSiffness: 100, bounceDamping: 30 }} className='third'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{ scale: 1.1 }} dragElastic={{ bounceSiffness: 100, bounceDamping: 30 }} className='fourth'></motion.div>
+              <motion.div drag dragConstraints={section6} whileDrag={{ scale: 1.1 }} dragElastic={{ bounceSiffness: 100, bounceDamping: 30 }} className='five'></motion.div>
             </div>
           </div>
         </section>
@@ -372,7 +372,7 @@ const About = () => {
               </div>
               <p>{data[property].projectDetail}</p>
             </div>
-            <div className="right9" style={{ background: `url(${data[property].projectImg})` }}>
+            <div data-scroll scroll-section={true} data-scroll-speed={-.5} className="right9" style={{ background: `url(${data[property].projectImg})` }}>
             </div>
           </div>
         </section>
@@ -450,11 +450,7 @@ const About = () => {
             </div>
           </section>
         </div>
-        <div className='parent flex'>
-          <div className='child'>
 
-          </div>
-        </div>
       </section>
     </>
   )

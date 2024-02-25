@@ -23,12 +23,20 @@
     position: relative;
     list-style: none;
     font-size: var(--small-font);
+    padding: 1rem 0;
+    cursor: pointer;
 }
+.left li:hover a {
+    color: var(--decoration) !important;
+    position: relative;
+    top: -.5rem;
 
+}
 .left li a {
     margin: 0rem .5rem;
     color: black;
     text-decoration: none;
+    transition: all ease-in .3s;
 }
 
 /* nav middle */

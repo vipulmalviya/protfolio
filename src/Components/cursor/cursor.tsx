@@ -14,8 +14,8 @@ const cursor = ({ hover }) => {
 
     return (
         <div className={`cursor flex ${hover ? "cursorhover" : ""}`} style={{
-            left: `${position.x}px`,
-            top: `${position.y}px`,
+            left: `${position.x - 40}px`,
+            top: `${position.y - 40}px`,
         }}>
             <img src="public/images/61fa5ae131de253e0d866d9b_Arrow.webp" alt="cursor" />
 
