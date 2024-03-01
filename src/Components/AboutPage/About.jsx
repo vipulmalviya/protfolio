@@ -9,42 +9,42 @@ import RoundBtn from '../Button/RoundBtn';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Button from '../Button/Button';
-import HomeAnim from '../Animation/HomeAnim';
+// import HomeAnim from '../Animation/HomeAnim';
 import OutherAnim from '../Animation/OutherAnim';
 import { motion } from 'framer-motion';
 
 const elem = [
   {
-    imageUrl: "public/images/1.webp",
+    imageUrl: "images/1.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
 
   },
   {
-    imageUrl: "public/images/2.jpg",
+    imageUrl: "images/2.jpg",
     cardTitle: "",
     cardDescription: ""
 
   },
   {
-    imageUrl: "public/images/3.jpg",
+    imageUrl: "images/3.jpg",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
 
   },
   {
-    imageUrl: "public/images/4.webp",
+    imageUrl: "images/4.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
 
   },
   {
-    imageUrl: "public/images/5.webp",
+    imageUrl: "images/5.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
   },
   {
-    imageUrl: "public/images/6.webp",
+    imageUrl: "images/6.webp",
     cardTitle: "firest",
     cardDescription: "Impactful branding and high-end "
   },
@@ -55,17 +55,17 @@ const testimonial = [
   {
     "writerName": "Design",
     "testimonialDescription": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Soluta At Animi Aut Perspiciatis, Quam Nam Ad Sunt Illum Numquam Dolores Adipisci, Odit, Quos Inventore Minima Accusamus Voluptatem! Delectus, Dolorem Iusto!",
-    "testimonialImage": "public/images/firest.webp"
+    "testimonialImage": "images/firest.webp"
   },
   {
     "writerName": "Project",
     "testimonialDescription": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit",
-    "testimonialImage": "public/images/second.webp"
+    "testimonialImage": "images/second.webp"
   },
   {
     "writerName": "Execution",
     "testimonialDescription": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Soluta At Animi Aut Perspiciatis, Quam Nam Ad Sunt Illum Numquam Dolores Adipisci, Odit, Quos Inventore",
-    "testimonialImage": "public/images/third.webp"
+    "testimonialImage": "images/third.webp"
   }
 ]
 
@@ -330,7 +330,7 @@ const About = () => {
           <div className="container flex">
             <div className="left7 flex">
               <div className='videocontainer'>
-                <video src="public/images/61dd9ddd76c6a0e00f7a4cb6_Webdesign - Frecerid_Bau-transcode.mp4" autoPlay loop muted></video>
+                <video src="images/61dd9ddd76c6a0e00f7a4cb6_Webdesign - Frecerid_Bau-transcode.mp4" autoPlay loop muted></video>
               </div>
             </div>
             <div className="right7 flex">

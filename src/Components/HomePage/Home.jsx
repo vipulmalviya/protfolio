@@ -100,7 +100,7 @@ const Home = () => {
             </div>
           </div>
           <div className='authorImg'>
-            <img style={imageStyle} width={"100%"} height={"100%"} src="public/images/627a6ebf32659497910541fb_Photo_profil2-p-800.webp" alt="" />
+            <img style={imageStyle} width={"100%"} height={"100%"} src="images/627a6ebf32659497910541fb_Photo_profil2-p-800.webp" alt="" />
           </div>
         </div>
       </section>

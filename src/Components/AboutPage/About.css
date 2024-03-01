@@ -929,6 +929,11 @@
 
 @media screen and (max-width: 428px) {
 
+    .arrow svg{
+        font-size: .5rem;
+    }
+
+
     .firest,
     .fourth {
         height: 80px;
@@ -1026,6 +1031,8 @@
     .left8 {
         margin-bottom: 0;
     }
+
+
 }
 
 @media screen and (max-width: 375px) {
