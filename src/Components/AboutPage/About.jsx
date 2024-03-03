@@ -88,15 +88,6 @@ const data = [
   }
 ]
 
-
-
-
-
-
-
-
-
-
 const About = () => {
 
   const section6 = useRef(null)
@@ -110,24 +101,26 @@ const About = () => {
   useEffect(() => {
     gsap.to(".scrolltext1", {
       ease: "linear",
-      x: 800,
+      x: 500,
       scrollTrigger: {
         trigger: ".section5",
         toggerAction: "restart pause reverse pause",
         start: "Top bottom",
         // markers:true,
         scrub: 2,
+        duration:".02s",
       }
     })
     gsap.to(".scrolltext2", {
       ease: "linear",
-      x: -800,
+      x: -500,
       scrollTrigger: {
         trigger: ".section5",
         toggerAction: "restart pause reverse pause",
         start: "top center",
         // markers:true,
         scrub: 2,
+        duration:".02s",
       }
     })
     const tl = gsap.timeline({

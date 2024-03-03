@@ -244,7 +244,7 @@
     position: relative;
     min-height: 30vh;
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     transform: rotateZ(5deg);
     flex-direction: column;
 }
@@ -1030,6 +1030,10 @@
 
     .left8 {
         margin-bottom: 0;
+    }
+
+    .top{
+        margin-bottom: 2rem;
     }
 
 
