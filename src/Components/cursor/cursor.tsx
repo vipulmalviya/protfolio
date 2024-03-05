@@ -17,7 +17,7 @@ const cursor = ({ hover }) => {
             left: `${position.x - 40}px`,
             top: `${position.y - 40}px`,
         }}>
-            <img src="public/images/61fa5ae131de253e0d866d9b_Arrow.webp" alt="cursor" />
+            <img src="images/61fa5ae131de253e0d866d9b_Arrow.webp" alt="cursor" />
 
         </div>
     )

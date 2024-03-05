@@ -59,13 +59,13 @@ const LightboxComponent = () => {
         plugins={[lgThumbnail]}
         className="flex"
       >
-        <a className="item1" href="public/images/627e27e010759ab21d0aca7d_Webdesign - 05.jpg"><img src="public/images/627e27e010759ab21d0aca7d_Webdesign - 05.jpg" alt="" /></a>
-        <a className="item2" href="public/images/645bb7c6400d52edb3a2b379_Webdesign - 01.webp"><img src="public/images/645bb7c6400d52edb3a2b379_Webdesign - 01.webp" alt="" /></a>
-        <a className="item3" href="public/images/6450c4512c0afcef778f727f_Webdesign - 04-1.webp"><img src="public/images/6450c4512c0afcef778f727f_Webdesign - 04-1.webp" alt="" /></a>
-        <a className="item4" href="public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp"><img src="public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp" alt="" /></a>
-        <a className="item5" href="public/images/6450c4518f7146208732ff3b_Webdesign - 02-1.webp"><img src="public/images/6450c4518f7146208732ff3b_Webdesign - 02-1.webp" alt="" /></a>
-        <a className="item6" href="public/images/6450c45167b84922094cd9c5_Webdesign - 07-1.webp"><img src="public/images/6450c45167b84922094cd9c5_Webdesign - 07-1.webp" alt="" /></a>
-        <a className="item7" href="public/images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp"><img src="public/images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp" alt="" /></a>
+        <a className="item1" href="images/627e27e010759ab21d0aca7d_Webdesign - 05.jpg"><img src="public/images/627e27e010759ab21d0aca7d_Webdesign - 05.jpg" alt="" /></a>
+        <a className="item2" href="images/645bb7c6400d52edb3a2b379_Webdesign - 01.webp"><img src="public/images/645bb7c6400d52edb3a2b379_Webdesign - 01.webp" alt="" /></a>
+        <a className="item3" href="images/6450c4512c0afcef778f727f_Webdesign - 04-1.webp"><img src="public/images/6450c4512c0afcef778f727f_Webdesign - 04-1.webp" alt="" /></a>
+        <a className="item4" href="images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp"><img src="public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp" alt="" /></a>
+        <a className="item5" href="images/6450c4518f7146208732ff3b_Webdesign - 02-1.webp"><img src="public/images/6450c4518f7146208732ff3b_Webdesign - 02-1.webp" alt="" /></a>
+        <a className="item6" href="images/6450c45167b84922094cd9c5_Webdesign - 07-1.webp"><img src="public/images/6450c45167b84922094cd9c5_Webdesign - 07-1.webp" alt="" /></a>
+        <a className="item7" href="images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp"><img src="public/images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp" alt="" /></a>
 
       </LightGallery>
     </div>

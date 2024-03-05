@@ -10,14 +10,15 @@
 }
 
 .projectLeft {
+    width: 40%;
     position: absolute;
     top: 50%;
-    left: 2%;
-    transform: translate(0%, -50%);
+    left: 1%;
+    transform: translateY(-50%);
     flex-direction: column;
     align-items: flex-start !important;
     gap: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     z-index: 11;
     pointer-events: none;
 }

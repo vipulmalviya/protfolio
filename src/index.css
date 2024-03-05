@@ -1,27 +1,27 @@
 @font-face {
     font-family: "sfprodesplay-light";
-    src: url("public/images/61dda8ac2d6530d8d9434405_SFProDisplay-Light.otf"),
+    src: url("images/61dda8ac2d6530d8d9434405_SFProDisplay-Light.otf"),
 }
 
 @font-face {
     font-family: "sfprodesplay-regular";
-    src: url("public/images/61dda8ad7ba2babdf37e071d_SFProDisplay-Regular.otf"),
+    src: url("images/61dda8ad7ba2babdf37e071d_SFProDisplay-Regular.otf"),
 }
 
 @font-face {
     font-family: "sfprodesplay-medium";
-    src: url("public/images/61dda8ad0965b81fb8c985ba_SFProDisplay-Medium.otf"),
+    src: url("images/61dda8ad0965b81fb8c985ba_SFProDisplay-Medium.otf"),
 }
 
 @font-face {
     font-family: "Media Sans SemiCondensed Ultra";
-    src: url("public/images/624325ea630c625303e9b1f9_Media Sans SemiCondensed - Extended.ttf"),
+    src: url("images/624325ea630c625303e9b1f9_Media Sans SemiCondensed - Extended.ttf"),
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html,

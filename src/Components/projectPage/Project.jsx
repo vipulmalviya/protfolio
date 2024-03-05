@@ -10,32 +10,32 @@ import OutherAnim from '../Animation/OutherAnim'
 
 const pdata = [
     {
-        imgUrl: "public/images/627a6ebf32659497910541fb_Photo_profil2-p-800.webp",
+        imgUrl: "images/627a6ebf32659497910541fb_Photo_profil2-p-800.webp",
         type: "demo1",
         title: "firest",
     },
     {
-        imgUrl: "public/images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp",
+        imgUrl: "images/6450c451bb77671ff3e9a68d_Webdesign - 06-1.webp",
         type: "demo1",
         title: "second",
     },
     {
-        imgUrl: "public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
+        imgUrl: "images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
         type: "demo1",
         title: "third",
     },
     {
-        imgUrl: "public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
+        imgUrl: "images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
         type: "demo1",
         title: "fourth",
     },
     {
-        imgUrl: "public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
+        imgUrl: "images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
         type: "demo1",
         title: "five",
     },
     {
-        imgUrl: "public/images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
+        imgUrl: "images/6450c4517bf5df691f2f5f29_Webdesign - 03-1.webp",
         type: "demo1",
         title: "six",
     },
